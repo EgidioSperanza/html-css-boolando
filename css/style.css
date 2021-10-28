@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:1200px;
+    margin:0 auto;
+    font-size:0px;
+    background-color: aqua;
+}
+
+.card{
+    width: calc(1200px / 3 - 40px);
+    display:inline-block;
+    font-size:16px;
+    margin: 20px;
+    background-color: wheat;
+    min-height: 10px;
+}
+
