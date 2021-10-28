@@ -8,7 +8,6 @@
     width:1200px;
     margin:0 auto;
     font-size:0px;
-    background-color: aqua;
 }
 
 .card{
@@ -16,7 +15,90 @@
     display:inline-block;
     font-size:16px;
     margin: 20px;
-    background-color: wheat;
-    min-height: 10px;
 }
 
+/* ------START PRODUCT IMAGE AND EFFECT------ */
+.card img{
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.hover-img{
+    display:none
+}
+
+.hover:hover .hover-img{
+    display:block;
+}
+
+.hover:hover .default-img{
+    display: none;
+}
+/* ------END PRODUCT IMAGE AND EFFECT------ */
+
+
+/* ------START PRICE AND DESCRIPTION------ */
+.brand .price{
+    color: #333;
+}
+
+.card p{
+    font-weight: bold;
+}
+
+.price{
+    text-decoration: line-through;
+}
+
+.discounted-price{
+    color: red;
+    font-weight: bold;
+}
+/* ------END PRICE AND DESCRIPTION------ */
+
+/* ------START TAG AND LIKE------ */
+.hover{
+    position: relative;
+}
+
+.like{
+    position: absolute;
+    top: 20px;
+    right: 0;
+    padding:8px 16px;
+    background-color: white;
+    text-align: center;
+    color: #333;
+    font-size: 32px;
+}
+
+.like::before{
+    content: '\2665';
+}
+
+.discount{
+    background-color: purple;
+    padding:5px;
+    margin-right: 5px;
+}
+
+.tag{
+    position: absolute;
+    bottom: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.product-tag{
+    padding:5px;
+    margin-right: 5px;
+}
+
+.sustanibility{
+    background-color: green;
+}
+
+.sustanibility::before{
+    content: 'Sostenibilità';
+}
+/* ------END TAG AND LIKE------ */
