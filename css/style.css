@@ -23,6 +23,9 @@
     margin-bottom: 10px;
 }
 
+.default-img{
+    display: block;
+}
 .hover-img{
     display:none
 }
