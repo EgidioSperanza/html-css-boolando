@@ -97,11 +97,8 @@
     margin-right: 5px;
 }
 
-.sustanibility{
+.green{
     background-color: green;
 }
 
-.sustanibility::before{
-    content: 'Sostenibilità';
-}
 /* ------END TAG AND LIKE------ */
